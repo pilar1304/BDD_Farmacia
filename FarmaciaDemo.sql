@@ -3,8 +3,8 @@ use FARMACE
 
 create SUCURSAL(
 idSucur int primary key,
-nombreSucur nvarchar(50),
-direcSucur nvarchar(50),
+nombreSucur varchar(50),
+direcSucur varchar(50),
 telefSucur varchar(15)
 )
 
