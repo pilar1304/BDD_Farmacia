@@ -1,7 +1,7 @@
 create database FARMACE
 use FARMACE
 
-create SUCURSAL(
+CREATE TABLE SUCURSAL(
 idSucur int primary key,
 nombreSucur varchar(50),
 direcSucur varchar(50),
